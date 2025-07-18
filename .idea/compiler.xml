@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel target="11">
+      <module name="GroceryHub.cart" target="21" />
+      <module name="GroceryHub.core-db" target="21" />
+      <module name="GroceryHub.core-network" target="21" />
+      <module name="GroceryHub.core-ui" target="21" />
+      <module name="GroceryHub.core-utils" target="21" />
+      <module name="GroceryHub.feature-cart" target="21" />
+      <module name="GroceryHub.feature-product" target="21" />
+      <module name="GroceryHub.product" target="21" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

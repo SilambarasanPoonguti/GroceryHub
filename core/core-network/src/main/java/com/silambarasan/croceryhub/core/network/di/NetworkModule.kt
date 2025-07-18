@@ -14,7 +14,7 @@ object NetworkModule {
     @Provides
     fun provideApi(): ApiService =
         Retrofit.Builder()
-            .baseUrl("https://api.example.com/")
+            .baseUrl("https://fakestoreapi.com/")
             .addConverterFactory(GsonConverterFactory.create())
             .build()
             .create(ApiService::class.java)

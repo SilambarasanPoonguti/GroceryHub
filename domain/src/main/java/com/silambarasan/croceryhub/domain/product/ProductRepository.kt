@@ -1,5 +1,7 @@
 package com.silambarasan.croceryhub.domain.product
 
+import com.silambarasan.croceryhub.domain.model.Product
+
 interface ProductRepository {
-    fun getProducts()
+    suspend fun getProducts(): List<Product>
 }
